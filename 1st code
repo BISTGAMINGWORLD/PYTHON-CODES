@@ -1,1 +1,14 @@
-here are codes
+# Function to calculate the area of a rectangle
+def area_of_rectangle():
+    # taking input from user
+    length = float (input("Enter the length of the rectangle: "))
+    breadth = float (input("Enter the breath of the rectangle: "))
+
+    # area calculation
+    area = length *  breadth
+
+    print(f"The area of the rectangle is:",area)
+
+# Calling the function
+area_of_rectangle()
+
