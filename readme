@@ -1,0 +1,18 @@
+# <B>Python String Reversal
+
+This repository contains a simple Python function to reverse a string. The function takes input from the user, reverses the string, and prints the result.
+
+## Code
+
+```python
+# Function to reverse a string
+def reverse_string(s):
+    # Reverse the string using slicing
+    return s[::-1]
+
+# Prompt the user to enter a string
+user_input = input("Enter a string to reverse: ")
+
+# Call the function with the user input and print the result
+reversed_string = reverse_string(user_input)
+print(f"The reversed string is: {reversed_string}")
